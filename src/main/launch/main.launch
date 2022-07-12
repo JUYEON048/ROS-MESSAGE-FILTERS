@@ -1,0 +1,11 @@
+<!-- -*- mode: XML -*- -->
+<launch>
+  <!-- Determine this using rosrun pointgrey_camera_driver list_cameras.
+       If not specified, defaults to first camera found. -->
+	<node pkg="main" type="test_msg_publisher_1.py" name="test_msg_publisher_1">
+	</node>
+	<node pkg="main" type="test_msg_publisher_2.py" name="test_msg_publisher_2">
+	</node>	
+	<!--node pkg="main" type="main.py" name="main">
+	</node-->
+</launch>
